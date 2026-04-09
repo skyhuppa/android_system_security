@@ -46,7 +46,7 @@ rust_defaults {
         "android.security.maintenance-rust",
         "android.security.metrics-rust",
         "android.security.rkp_aidl-rust",
-        "libaconfig_android_hardware_biometrics_rust",
+ //       "libaconfig_android_hardware_biometrics_rust",
         "libandroid_security_flags_rust",
         "libanyhow",
         "libbinder_rs",
@@ -197,8 +197,8 @@ rust_aconfig_library {
     aconfig_declarations: "keystore2_flags",
 }
 
-rust_aconfig_library {
-    name: "libaconfig_android_hardware_biometrics_rust",
-    crate_name: "aconfig_android_hardware_biometrics_rust",
-    aconfig_declarations: "android.hardware.biometrics.flags-aconfig",
-}
+//rust_aconfig_library {
+//    name: "libaconfig_android_hardware_biometrics_rust",
+//    crate_name: "aconfig_android_hardware_biometrics_rust",
+//    aconfig_declarations: "android.hardware.biometrics.flags-aconfig",
+//}
